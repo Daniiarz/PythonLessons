@@ -23,3 +23,5 @@ while True:
         for rasshod in expenses:
             print(f"{rasshod[0]} | {rasshod[1]} | {rasshod[2]}")
         print()
+
+print("Changes")
