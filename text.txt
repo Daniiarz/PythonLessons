@@ -1,0 +1,3 @@
+Food|120|09
+Drinks|100|89
+Transportation|200|870
