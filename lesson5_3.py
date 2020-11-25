@@ -8,10 +8,8 @@ class Expense:
         self.amount = amount
         self.date = datetime.now()
 
-
     def __str__(self):
         return f"{self.name} {self.amount} {self.date}"
-
 
 
 expense1 = Expense("Food", 190)
@@ -22,6 +20,7 @@ def calc_sum(expenses):
     for expense in expenses:
         result += expense.amount
     return result
+
 
 def main():
     expenses = []
@@ -50,5 +49,6 @@ def main():
 
         else:
             print("Выберите один из вариантов!!!!!!!!!")
+
 
 main()
