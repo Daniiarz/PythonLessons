@@ -1,17 +1,16 @@
 name = "Daniiar"
 surname = "M"
 age = (19 + 1) // 2
-print(21/2)
-print(21//2)
-print(21%2)
-print(3**3)
+print(21 / 2)
+print(21 // 2)
+print(21 % 2)
+print(3 ** 3)
 
 age2 = "19"
-print((age2+age2+name+surname) * age)
+print((age2 + age2 + name + surname) * age)
 
 print(name, surname)
 print(type(age), type(age2))
-
 
 weight = 80 != 70
 is_equal = "Daniiar" == name
